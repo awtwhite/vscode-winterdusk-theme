@@ -1,0 +1,35 @@
+
+@import 'path/example.less';
+
+@example: 'Open Sans', sans-serif, serif;
+
+.class,
+.example-class {
+  font-family: 'Open Sans', sans-serif, serif;
+  display: @example;
+
+  @media print {
+    // https://www.smashingmagazine.com/2011/11/how-to-set-up-a-print-style-sheet/
+    display: none;
+  }
+
+  @media screen and (min-with: 999px){
+    max-width: 100% !important;
+  }
+}
+
+#id,
+#example-ID {
+  background: #bada55;
+}
+
+p,
+h2,
+div,
+section {
+  margin-top: 20px;
+}
+
+unknown {
+  property: value;
+}

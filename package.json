@@ -1,0 +1,21 @@
+{
+    "name": "vscode-winterdusk-theme",
+    "displayName": "Winterdusk Theme",
+    "description": "Handcrafted theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Winterdusk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Winterdusk-color-theme.json"
+            }
+        ]
+    }
+}
